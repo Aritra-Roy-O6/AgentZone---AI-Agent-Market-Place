@@ -1,0 +1,13 @@
+[package]
+name = "agent_marketplace"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[addresses]
+# This sets the placeholder 'agent_marketplace' to YOUR account address
+# We will use '_' so we can easily pass it in CLI commands later, 
+# or you can paste your actual 0x... address from 'aptos init' here.
+agent_marketplace = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
