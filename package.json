@@ -1,0 +1,29 @@
+{
+  "name": "agent_zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aritra-Roy-O6/AgentZone---AI-Agent-Market-Place.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aritra-Roy-O6/AgentZone---AI-Agent-Market-Place/issues"
+  },
+  "homepage": "https://github.com/Aritra-Roy-O6/AgentZone---AI-Agent-Market-Place#readme",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^5.2.0",
+    "dotenv": "^17.2.3",
+    "got": "^14.6.5"
+  }
+}

@@ -1,2 +1,54 @@
 .aptos/
 build/
+# --- General & OS ---
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# --- Dependencies & Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# --- Next.js / React Build Outputs ---
+.next/
+out/
+build/
+dist/
+.vercel/
+
+# --- Aptos / Move Contract ---
+# Ignore the compiled bytecode and artifacts
+**/move/build/
+**/sources/build/
+
+# Ignore local Aptos configuration (often contains private keys/test wallets)
+.aptos/
+config.yaml
+
+# --- Python (If you have backend scripts) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+
+# --- Miscellaneous ---
+# If you are allowing file uploads locally during dev
+/uploads
+/public/uploads
